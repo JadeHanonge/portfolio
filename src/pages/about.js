@@ -1,7 +1,13 @@
 import * as React from "react";
+import NavBarre from "../components/navBarre";
+import '/home/jade/dev/portfolio/src/pages/homePage.css';
 
 const About = () => {
-    return <h1>About page</h1>;
+    return (
+        <div className="home-page">
+          <NavBarre pageTitle={"About"} />
+        </div>
+      );
 };
 
 export default About;
