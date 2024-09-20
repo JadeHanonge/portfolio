@@ -1,10 +1,10 @@
 import * as React from "react";
 import NavBarre from "../components/navBarre";
-import '/home/jade/dev/portfolio/src/pages/homePage.css';
+
 
 const Projects = () => {
     return (
-        <div className="home-page">
+        <div style ={{backgroundColor: '#bfd4b5', minHeight: '100vh'}}>
           <NavBarre pageTitle={"Project"} />
         </div>
       );

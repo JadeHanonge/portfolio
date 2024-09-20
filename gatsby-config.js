@@ -6,5 +6,6 @@ module.exports = {
     title: `Jade.Hanonge`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+  ],
 }
