@@ -1,0 +1,28 @@
+.navbar {
+    background-color: white; /* Barre de navigation blanche */
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 2rem; /* Espacement entre les liens */
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .navbar-link {
+    text-decoration: none; /* Supprime le soulignement */
+    color: black; /* Texte noir */
+    font-size: 1.2rem;
+    font-weight: 500; /* Peut ajuster l'épaisseur de la police si nécessaire */
+  }
+  
+  .navbar-link:hover {
+    color: gray; /* Optionnel : couleur différente au survol */
+  }
+  
