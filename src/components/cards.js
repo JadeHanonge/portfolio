@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import './cards.css';
 import { getProjects } from './projects.service';
-import { StaticImage } from 'gatsby-plugin-image';
+//import { StaticImage } from 'gatsby-plugin-image';
 //import axios from 'axios';
 
 const Cards = () => {
