@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Link } from 'gatsby';
 import './navBarre.css'; // Pour le style de la barre de navigation
 
