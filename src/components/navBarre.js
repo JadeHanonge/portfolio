@@ -14,13 +14,18 @@ const NavBarre = ({pageTitle}) => {
             </Link>
             </li>
             <li className="navbar-item">
-            <Link to="/about" className="navbar-link">
-                About
+            <Link to="/projects" className="navbar-link">
+                Projects
             </Link>
             </li>
             <li className="navbar-item">
-            <Link to="/projects" className="navbar-link">
-                Projects
+            <Link to="/tableauDeSynthese" className="navbar-link">
+                Tableau de synthèse
+            </Link>
+            </li>
+            <li className="navbar-item">
+            <Link to="/developpementPro" className="navbar-link">
+                Développement profesionnel
             </Link>
             </li>
         </ul>

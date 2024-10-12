@@ -1,0 +1,14 @@
+.titre{
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.sous-titre{
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.corps{
+    margin-left: 70px;
+}
