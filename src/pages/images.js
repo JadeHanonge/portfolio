@@ -8,7 +8,7 @@ const Images = () => {
       <div>
         <StaticImage src="../images/projet1.jpg"/>
         <StaticImage src="../images/projet2.jpg"/>
-        <StaticImage src="../images/projet3.jpg"/>
+        <StaticImage src="../images/projet3.jpeg"/>
       </div> 
       );
 };

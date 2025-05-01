@@ -7,7 +7,7 @@ exports.createPages = async ({ actions }) => {
 
   try {
     // Remplace `apiurl` par l'URL de ton API
-    const response = await axios.get('https://portfolio-api-svsy.onrender.com/api/projects');
+    const response = await axios.get('http://localhost:5000/api/projects');
     const projects = response.data.rows; // Récupérer les projets depuis la réponse
     // Créer une page pour chaque projet
     projects.forEach(project => {
