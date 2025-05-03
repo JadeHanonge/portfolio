@@ -1,9 +1,11 @@
 // projectsService.js
 import axios from 'axios';
 
+const api_url = "http://api-portfolio.jadehanonge.com/api/projects";
+
 // Fonction pour récupérer les projets depuis l'API
 export const getProjects = () => {
-  return axios.get('http://localhost:5000/api/projects')
+  return axios.get(api_url)
     .then(response => {
         console.log("reponse.data : ",response.data);
         return response.data;
@@ -18,7 +20,7 @@ export const getProjects = () => {
 };
 
 export const getProjectById = (id) => {
-  return axios.get(`http://localhost:5000/api/projects`)
+  return axios.get(api_url)
     .then(response => {
         const rows = response.data
 
