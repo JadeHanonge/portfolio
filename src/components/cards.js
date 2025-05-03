@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import './cards.css';
 import { getProjects } from './projects.service';
 import { Link } from 'gatsby';
-import ProjectDetail from '../pages/projectDetail';
 
 //import { StaticImage } from 'gatsby-plugin-image';
 //import axios from 'axios';
@@ -15,6 +14,7 @@ const Cards = () => {
     useEffect(() => {
       getProjects()
         .then(data => {
+          console.log("donée recup : ", data);
           setProjects(data);
         })
         .catch(error => {
@@ -27,19 +27,19 @@ const Cards = () => {
         <h1>My Projects</h1>
         <div className="projects-grid">
           {projects.map(project => (
-            <Link to={`/projectDetail/${project.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
-              <div key={project.id} className="project-card">
-                <img src={project.image} alt={project.name} className="project-image" />
-                <h2>{project.name}</h2>
+            <Link key={project.id} to={`/projectDetail/${project.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
+              <div className="project-card">
+                <img src={project.image} alt={project.nom} className="project-image" width={400} height={300} />
+                <h2>{project.nom}</h2>
                 <p>{project.description}</p>
-                <a href={project.code} target="_blank" rel="noopener noreferrer">
+                <a href={project.lien} target="_blank" rel="noopener noreferrer">
                   View Code
                 </a>
-              </div>  
+              </div>
             </Link>
           ))}
         </div>
-      </div> 
+      </div>
     );
 };
 

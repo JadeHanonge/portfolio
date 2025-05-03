@@ -10,7 +10,6 @@ const DeveloppemntPro = () => {
           <NavBarre pageTitle={"Developpement profesionnel"} />
           <VeilleTechno/>
         </div>
-        
       );
 }
 

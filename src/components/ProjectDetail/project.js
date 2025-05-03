@@ -17,7 +17,7 @@ const Project = ({id}) => {
 
     return (
         <div>
-            <h2>{projects.name}</h2>
+            <h2>{projects.nom}</h2>
         </div>
     )
 }

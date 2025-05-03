@@ -8,7 +8,8 @@ exports.createPages = async ({ actions }) => {
   try {
     // Remplace `apiurl` par l'URL de ton API
     const response = await axios.get('http://localhost:5000/api/projects');
-    const projects = response.data.rows; // Récupérer les projets depuis la réponse
+    const projects = response.data; // Récupérer les projets depuis la réponse
+    console.log("data recup dans node : ", projects);
     // Créer une page pour chaque projet
     projects.forEach(project => {
       createPage({
