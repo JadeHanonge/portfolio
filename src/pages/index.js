@@ -6,7 +6,7 @@ import Presentation from "../components/Presentation/presentation";
 
 const Homepage = () => {
   return (
-    <main style ={{backgroundColor: '#bfd4b5', minHeight: '100vh'}}>
+    <main style ={{backgroundColor: '#bfd4b5', minHeight: '200vh'}}>
       <NavBarre pageTitle={"Home"} />
       <Presentation/>
     </main>

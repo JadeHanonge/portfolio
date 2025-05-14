@@ -25,17 +25,14 @@ export const getProjectById = (id) => {
         const rows = response.data
 
         const project = rows.find(project => project.id === id);
-        console.log("project pour detail : ", project);
 
         if (project){
-          console.log("project id :", project);
           return project
 
         }
         else{
-          console.log("aucun projet trouvé");
 
-          return null; // Renvoie les détails du projet
+          return null; 
         }
 
     })

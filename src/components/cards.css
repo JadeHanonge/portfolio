@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 2.7rem;
+  text-align: center;
+  color: #daabcf;
+  margin: 50px auto 20px;
+  padding: 10px 30px;
+  border: 5px solid #daabcf;
+  border-radius: 30px;
+  display: block;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  background-color: #fff;
+  max-width: 900px;
+}
+
 .projects-container {
     padding: 2rem;
     text-align: center;
@@ -27,25 +47,34 @@
   }
 
 
-  .project-card h2 {
+  .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-decoration: none !important;
-    color : black;
+    color : #d595caf8;
     background: none;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-style: normal;
   }
 
   .project-card p {
     font-size: 1rem;
     color: #333;
+    font-family: "Poppins";
+    font-weight: 300;
+    font-style: normal;
   }
 
   .project-card a {
     display: inline-block;
     margin-top: 1rem;
-    color: #007acc;
+    color: #d595caf8;
     text-decoration: none;
     font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 200;
+    font-style: normal;
   }
 
   .project-card a:hover {

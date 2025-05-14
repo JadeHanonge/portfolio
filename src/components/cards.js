@@ -24,16 +24,17 @@ const Cards = () => {
 
     return (
         <div className="projects-container">
-        <h1>My Projects</h1>
+        <h2>Mes Projets</h2>
+        <h4 className="sous-titre"><a href='/images/tableau_de_synthese.pdf' target='_blank' rel='noopener noreferrer'>Tableau de synthèse</a></h4>
         <div className="projects-grid">
           {projects.map(project => (
             <Link key={project.id} to={`/projectDetail/${project.id}`} style={{textDecoration: 'none', color: 'inherit'}}>
               <div className="project-card">
                 <img src={project.image} alt={project.nom} className="project-image" width={400} height={300} />
-                <h2>{project.nom}</h2>
+                <h3>{project.nom}</h3>
                 <p>{project.description}</p>
                 <a href={project.lien} target="_blank" rel="noopener noreferrer">
-                  View Code
+                  View More
                 </a>
               </div>
             </Link>

@@ -10,17 +10,12 @@ const NavBarre = ({pageTitle}) => {
         <ul className="navbar-list">
             <li className="navbar-item">
             <Link to="/" className="navbar-link">
-                Home
+                Accueil
             </Link>
             </li>
             <li className="navbar-item">
             <Link to="/projects" className="navbar-link">
-                Projects
-            </Link>
-            </li>
-            <li className="navbar-item">
-            <Link to="/tableauDeSynthese" className="navbar-link">
-                Tableau de synthèse
+                Projets
             </Link>
             </li>
             <li className="navbar-item">
