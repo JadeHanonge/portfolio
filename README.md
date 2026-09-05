@@ -1,49 +1,35 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby Minimal Starter
-</h1>
+# Portfolio — Jade Hanonge 🎓
 
-## 🚀 Quick start
+Site portfolio personnel développé avec **Gatsby (React)**, conçu et présenté dans le cadre de l'examen final du **BTS SIO option SLAM**.
 
-1.  **Create a Gatsby site.**
+## Contenu
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- **Présentation** — profil et parcours
+- **Expérience** — stages et missions professionnelles
+- **Projets** — réalisations menées durant la formation
+- **Compétences** — feuille des compétences validées au cours de l'année (référentiel BTS SIO)
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+## Stack technique
 
-2.  **Start developing.**
+- **Framework :** Gatsby (React)
+- **Génération :** site statique
 
-    Navigate into your new site’s directory and start it up.
+## Installation
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+```bash
+git clone https://github.com/JadeHanonge/portfolio.git
+cd portfolio
+npm install
+npm run develop
+```
 
-3.  **Open the code and start customizing!**
+Le site est alors accessible sur `http://localhost:8000`.
 
-    Your site is now running at http://localhost:8000!
+## Statut du projet
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Le site a été déployé en ligne via un VPS personnel lors de l'examen ; il n'est plus hébergé actuellement, le VPS n'étant plus disponible. Le code reste consultable et exécutable localement.
 
-4.  **Learn more**
+## Auteure
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Tutorials](https://www.gatsbyjs.com/docs/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Guides](https://www.gatsbyjs.com/docs/how-to/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Netlify)
-
-Deploy this starter with one click on [Netlify](https://app.netlify.com/signup):
-
-[<img src="https://www.netlify.com/img/deploy/button.svg" alt="Deploy to Netlify" />](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-minimal)
+**Jade Hanonge**
+[GitHub](https://github.com/JadeHanonge)
